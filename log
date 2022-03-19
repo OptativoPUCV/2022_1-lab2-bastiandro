@@ -23,3 +23,13 @@ list.c:34:20: error: expected expression before ‘)’ token
                     ^
 Compilation failed
 5f899b6
+Sat Mar 19 22:33:42 UTC 2022: 
+ list.c | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:34:19: error: expected expression before ‘)’ token
+   List*list=(list*)malloc(sizeof(list));
+                   ^
+Compilation failed
+e59b8d0
