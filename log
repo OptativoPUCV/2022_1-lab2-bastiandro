@@ -1,0 +1,15 @@
+Sat Mar 19 22:24:41 UTC 2022: 
+ list.c | 68 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 66 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+list.c: In function ‘createList’:
+list.c:34:20: error: expected expression before ‘)’ token
+   List*list= (list*)malloc(sizeof(list));
+                    ^
+list.c: In function ‘popCurrent’:
+list.c:124:7: error: unused variable ‘elimina3’ [-Werror=unused-variable]
+   int elimina3;
+       ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+78d39e4
