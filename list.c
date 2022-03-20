@@ -93,11 +93,10 @@ void pushFront(List * list, void * data) {
   new->next=list->head;
   if(list->head != NULL){
     list->head->prev=new;
+    new->prev=NULL;
+    list->head=new;
+    list->size++;
   }
-  new->prev=NULL;
-  list->head=new;
-  list->size++;
-  
 }
 
 void pushBack(List * list, void * data) {
