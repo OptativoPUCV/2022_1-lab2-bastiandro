@@ -160,7 +160,7 @@ void * popCurrent(List * list) {
     }
   }
   free(actual);
-  return data
+  return data;
 
   }
 
